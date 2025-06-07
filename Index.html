@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>„Пътуване към себе си: как се става народ“</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>„Пътуване към себе си“</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Начална страница</a></li>
+                <li><a href="#awakening" class="nav-link">Събуждането</a></li>
+                <li><a href="#pillars" class="nav-link">Трите стълба</a></li>
+               <!-- <li><a href="#projects" class="nav-link">Творчески проекти</a></li> -->
+                <li><a href="#timeline" class="nav-link">Хронология</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой Секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">"Пътуване към себе си"</h1>
+                <h2 class="hero-subtitle">Как се става народ</h2>
+                <p class="hero-description">
+                    Изследване на дълбоката трансформация от "спящ народ" до нация с мечта.
+                    Открийте ролята на словото, бунта и просветлението в това свещено пътуване.
+                </p>
+                <button class="cta-button" onclick="scrollToSection('awakening')">Започнете пътуването</button>
+            </div>
+            <div class="hero-visual">
+                <div class="awakening-circle">
+                    <div class="inner-circle"></div>
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Великото пробуждане -->
+    <section id="awakening" class="awakening-section">
+        <div class="container">
+            <h2 class="section-title">Великото пробуждане</h2>
+            <div class="awakening-content">
+                <div class="awakening-text">
+                    <h3>От сън към съзнание</h3>
+                    <p>
+                        Как един "спящ народ" се превръща в нация с мечта? Този въпрос стои в основата
+                        на всяко велико национално пробуждане през историята. Това е пътешествие, което надхвърля
+                        обикновената политическа промяна — то е духовна и интелектуална метаморфоза.
+                    </p>
+                    <p>
+                        Процесът започва в тишина, в дълбините на колективното несъзнавано, където един народ съществува,
+                        без истински да живее. Но в тази привидна дрямка се крие семето на промяната, което чака
+                        подходящия момент, за да покълне в национално съзнание.
+                    </p>
+                </div>
+                <div class="awakening-stages">
+                    <div class="stage" data-stage="1">
+                        <div class="stage-icon">💤</div>
+                        <h4>Сънят</h4>
+                        <p>Несъзнателно съществуване, приемане на статуквото</p>
+                    </div>
+                    <div class="stage" data-stage="2">
+                        <div class="stage-icon">👁️</div>
+                        <h4>Пробуждането</h4>
+                        <p>Първи проблясъци на осъзнаване, започват въпросите</p>
+                    </div>
+                    <div class="stage" data-stage="3">
+                        <div class="stage-icon">🔥</div>
+                        <h4>Осъзнаването</h4>
+                        <p>Пълно съзнание, възниква колективно действие</p>
+                    </div>
+                    <div class="stage" data-stage="4">
+                        <div class="stage-icon">🌟</div>
+                        <h4>Нацията</h4>
+                        <p>Обединена идентичност, споделени мечти и стремежи</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Трите стълба на трансформацията -->
+    <section id="pillars" class="pillars-section">
+        <div class="container">
+            <h2 class="section-title">Трите стълба на трансформацията</h2>
+            <div class="pillars-grid">
+                <div class="pillar" data-pillar="word">
+                    <div class="pillar-icon">📜</div>
+                    <h3>Словото</h3>
+                    <p>
+                        Езикът се превръща в носител на съзнанието. Чрез поезия, литература и дискусии
+                        народът открива своя глас и формулира мечтите си.
+                    </p>
+                    <div class="pillar-details">
+                        <ul>
+                            <li>Литературата като пробуждаща сила</li>
+                            <li>Съхранение и развитие на езика</li>
+                            <li>Устни традиции и разказвачество</li>
+                            <li>Преса и медии като катализатори</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pillar" data-pillar="rebellion">
+                    <div class="pillar-icon">⚡</div>
+                    <h3>Бунтът</h3>
+                    <p>
+                        Съпротивата срещу потисничеството се превръща в ковачница на националната идентичност. Чрез борба
+                        народът изгражда своя характер и определя ценностите си.
+                    </p>
+                    <div class="pillar-details">
+                        <ul>
+                            <li>Гражданско неподчинение и протест</li>
+                            <li>Културна съпротива</li>
+                            <li>Икономически бойкоти</li>
+                            <li>Подземни движения</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pillar" data-pillar="enlightenment">
+                    <div class="pillar-icon">💡</div>
+                    <h3>Просвещението</h3>
+                    <p>
+                        Образованието и интелектуалното пробуждане осветяват пътя напред. Знанието става сила,
+                        а мъдростта води трансформацията.
+                    </p>
+                    <div class="pillar-details">
+                        <ul>
+                            <li>Движения за образователна реформа</li>
+                            <li>Научен и културен ренесанс</li>
+                            <li>Философски дискурс</li>
+                            <li>Международна осведоменост</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Творчески проекти 
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Творчески изследвания</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="map">
+                    <div class="project-header">
+                        <h3>Карта на пробуждането</h3>
+                        <span class="project-type">Визуална линия на осъзнаването</span>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            Интерактивно визуално пътешествие, което проследява етапите на националното съзнание —
+                            от дрямка до пълно пробуждане.
+                        </p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="map-preview">
+                            <div class="map-path"></div>
+                            <div class="map-markers">
+                                <div class="marker sleep"></div>
+                                <div class="marker stir"></div>
+                                <div class="marker awake"></div>
+                                <div class="marker nation"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="project-btn">Разгледай картата</button>
+                </div>
+
+                <div class="project-card" data-project="documentary">
+                    <div class="project-header">
+                        <h3>Слово. Бунт. Свобода.</h3>
+                        <span class="project-type">Документален видео колаж</span>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            Мултимедийно изследване, което съчетава исторически кадри, поетични рецитации
+                            и съвременни размисли за пътя към народността.
+                        </p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="video-preview">
+                            <div class="video-frame">
+                                <div class="play-button">▶</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="project-btn">Гледай трейлър</button>
+                </div>
+
+                <div class="project-card" data-project="play">
+                    <div class="project-header">
+                        <h3>Пробуждането</h3>
+                        <span class="project-type">Символична пиеса</span>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            Театрална постановка, която изследва вътрешните и външните конфликти,
+                            съпътстващи раждането на националното съзнание.
+                        </p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="theater-preview">
+                            <div class="stage">
+                                <div class="spotlight"></div>
+                                <div class="actors">
+                                    <div class="actor"></div>
+                                    <div class="actor"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="project-btn">Прочети сценария</button>
+                </div>
+
+                <div class="project-card" data-project="installation">
+                    <div class="project-header">
+                        <h3>Тежестта на оковите</h3>
+                        <span class="project-type">Арт инсталация</span>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            Потапяща инсталация, която изследва физическите и метафорични окови,
+                            които държат един народ, и тяхното постепенно разкъсване чрез пробуждане.
+                        </p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="installation-preview">
+                            <div class="chains">
+                                <div class="chain-link"></div>
+                                <div class="chain-link broken"></div>
+                                <div class="chain-link"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="project-btn">Виртуална разходка</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Хронология -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Исторически модели на пробуждане</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-era="ancient">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Древни пробуждания</h3>
+                        <p>Ранни примери за колективно съзнание в древните цивилизации</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-era="renaissance">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Ренесанс и Реформация</h3>
+                        <p>Културни и религиозни пробуждания, които променят европейското съзнание</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-era="enlightenment">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Епоха на Просвещението</h3>
+                        <p>Разумът и индивидуалните права разпалват национални движения</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-era="romantic">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Романтичен национализъм</h3>
+                        <p>Културната идентичност и народните традиции подхранват националното съзнание</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-era="modern">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Модерно освобождение</h3>
+                        <p>Деколонизацията и движенията за независимост през 20-ти век</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-era="digital">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Дигитална епоха</h3>
+                        <p>Социалните медии и глобалната свързаност променят колективната идентичност</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футър -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Пътуване към себе си</h3>
+                    <p>Изследване на трансформацията от народ към нация чрез слово, бунт и просвещение.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Открийте</h4>
+                    <ul>
+                        <li><a href="#awakening">Пробуждането</a></li>
+                        <li><a href="#pillars">Трите стълба</a></li>
+                        <li><a href="#projects">Творчески проекти</a></li>
+                        <li><a href="#timeline">Хронология</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ресурси</h4>
+                    <ul>
+                        <li><a href="#">Исторически примери</a></li>
+                        <li><a href="#">Допълнително четиво</a></li>
+                        <li><a href="#">Академични статии</a></li>
+                        <li><a href="#">Контакт</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Пътуване към себе си. Изследване на колективното съзнание и националното пробуждане.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
